@@ -22,7 +22,7 @@ let users = [{
 
 app.use(express.json());
 
-app.listen(port, () => {
+app.listen(PORT, () => {
 
     console.log(`servidor rodando em http://localhost:${PORT}`);
 
